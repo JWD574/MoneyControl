@@ -14,6 +14,15 @@
 		50A415BD29478F2700C3E0B8 /* MoneyControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415BC29478F2700C3E0B8 /* MoneyControlTests.swift */; };
 		50A415C729478F2700C3E0B8 /* MoneyControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415C629478F2700C3E0B8 /* MoneyControlUITests.swift */; };
 		50A415C929478F2700C3E0B8 /* MoneyControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415C829478F2700C3E0B8 /* MoneyControlUITestsLaunchTests.swift */; };
+		50A415DA29478F7A00C3E0B8 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415D929478F7A00C3E0B8 /* AppTabBarView.swift */; };
+		50A415DC29478FA500C3E0B8 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415DB29478FA500C3E0B8 /* CustomTabBarView.swift */; };
+		50A415DE2947947500C3E0B8 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415DD2947947500C3E0B8 /* CustomTabBarContainerView.swift */; };
+		50A415E02947A03800C3E0B8 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415DF2947A03800C3E0B8 /* TabBarItemsPreferenceKey.swift */; };
+		50A415E22947AA8000C3E0B8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415E12947AA8000C3E0B8 /* CategoryView.swift */; };
+		50A415E42947AAAA00C3E0B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415E32947AAAA00C3E0B8 /* HomeView.swift */; };
+		50A415E62947AB4F00C3E0B8 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415E52947AB4F00C3E0B8 /* ReportsView.swift */; };
+		50A415E82947AB6C00C3E0B8 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415E72947AB6C00C3E0B8 /* GoalView.swift */; };
+		50A415EA2947ABDD00C3E0B8 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A415E92947ABDD00C3E0B8 /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		50A415C229478F2700C3E0B8 /* MoneyControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A415C629478F2700C3E0B8 /* MoneyControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyControlUITests.swift; sourceTree = "<group>"; };
 		50A415C829478F2700C3E0B8 /* MoneyControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50A415D929478F7A00C3E0B8 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		50A415DB29478FA500C3E0B8 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		50A415DD2947947500C3E0B8 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		50A415DF2947A03800C3E0B8 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		50A415E12947AA8000C3E0B8 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		50A415E32947AAAA00C3E0B8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		50A415E52947AB4F00C3E0B8 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		50A415E72947AB6C00C3E0B8 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		50A415E92947ABDD00C3E0B8 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +112,10 @@
 		50A415AA29478F2600C3E0B8 /* MoneyControl */ = {
 			isa = PBXGroup;
 			children = (
+				50A415D829478F5B00C3E0B8 /* Extensions */,
+				50A415D729478F5000C3E0B8 /* Managers */,
+				50A415D629478F4600C3E0B8 /* Models */,
+				50A415D529478F3E00C3E0B8 /* Views */,
 				50A415AB29478F2600C3E0B8 /* MoneyControlApp.swift */,
 				50A415AD29478F2600C3E0B8 /* ContentView.swift */,
 				50A415AF29478F2700C3E0B8 /* Assets.xcassets */,
@@ -125,6 +147,43 @@
 				50A415C829478F2700C3E0B8 /* MoneyControlUITestsLaunchTests.swift */,
 			);
 			path = MoneyControlUITests;
+			sourceTree = "<group>";
+		};
+		50A415D529478F3E00C3E0B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50A415D929478F7A00C3E0B8 /* AppTabBarView.swift */,
+				50A415DF2947A03800C3E0B8 /* TabBarItemsPreferenceKey.swift */,
+				50A415DB29478FA500C3E0B8 /* CustomTabBarView.swift */,
+				50A415DD2947947500C3E0B8 /* CustomTabBarContainerView.swift */,
+				50A415E12947AA8000C3E0B8 /* CategoryView.swift */,
+				50A415E32947AAAA00C3E0B8 /* HomeView.swift */,
+				50A415E52947AB4F00C3E0B8 /* ReportsView.swift */,
+				50A415E72947AB6C00C3E0B8 /* GoalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50A415D629478F4600C3E0B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50A415E92947ABDD00C3E0B8 /* TabBarItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50A415D729478F5000C3E0B8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		50A415D829478F5B00C3E0B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +317,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				50A415AE29478F2600C3E0B8 /* ContentView.swift in Sources */,
+				50A415E22947AA8000C3E0B8 /* CategoryView.swift in Sources */,
 				50A415AC29478F2600C3E0B8 /* MoneyControlApp.swift in Sources */,
+				50A415DA29478F7A00C3E0B8 /* AppTabBarView.swift in Sources */,
+				50A415EA2947ABDD00C3E0B8 /* TabBarItem.swift in Sources */,
+				50A415E02947A03800C3E0B8 /* TabBarItemsPreferenceKey.swift in Sources */,
+				50A415E42947AAAA00C3E0B8 /* HomeView.swift in Sources */,
+				50A415DC29478FA500C3E0B8 /* CustomTabBarView.swift in Sources */,
+				50A415E82947AB6C00C3E0B8 /* GoalView.swift in Sources */,
+				50A415E62947AB4F00C3E0B8 /* ReportsView.swift in Sources */,
+				50A415DE2947947500C3E0B8 /* CustomTabBarContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
